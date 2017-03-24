@@ -1,0 +1,74 @@
+{
+    "title": "Gitbook Use",
+    "author": "wlm",
+    "description": "文档和笔记",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "Home": "http://www.wlmmlw.com"
+        }
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": [
+        "disqus",
+        "-search",
+        "search-pro",
+        "advanced-emoji",
+        "github",
+        "include-codeblock",
+        "ace",
+        "emphasize",
+        "katex",
+        "splitter",
+        "mermaid",
+        "-sharing",
+        "tbfed-pagefooter",
+        "toggle-chapters",
+        "sectionx",
+        "codeblock-filename",
+        "ga"
+    ],
+    "pluginsConfig": {
+        "fontsettings": {
+            "theme": "sepia",
+            "family": "serif",
+            "size": 1
+        },
+        "disqus": {
+            "shortName": "gitbookuse"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord": ["Gitbook Use"]
+        },
+        "github": {
+            "url": "https://github.com/Wlmtest"
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy wlm.com 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "ga": {
+            "token": "UA-XXXX-Y"
+        }
+    }
+}
