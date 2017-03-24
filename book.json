@@ -41,7 +41,7 @@
             "size": 1
         },
         "disqus": {
-            "shortName": "gitbookuse"
+            "shortName": "wlmcomment"
         },
         "search-pro": {
             "cutWordLib": "nodejieba",
